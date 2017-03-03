@@ -6,8 +6,8 @@ just clong the code and open the index.html , than enjoy your time
 ## how to code 
 1.  Make sure your computer environment have nodeJs .
 2.  code like this :
-	npm init
-	npm install
-	bower install
-	gulp
+	a.npm init;
+	b.npm install;
+	c.bower install;
+	d.gulp;
 3.  use less , and begin code .
