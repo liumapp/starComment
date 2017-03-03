@@ -1,0 +1,23 @@
+{
+  "name": "starcomment",
+  "description": "use star to comment",
+  "main": "index.js",
+  "authors": [
+    "liumapp"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "javascript"
+  ],
+  "homepage": "https://github.com/liumapp/starComment",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1"
+  }
+}
