@@ -43,3 +43,50 @@
 	}
 }
 
+
+.pStars2{
+	top: 5px;
+	width:158px;
+	height: 22px;
+	overflow: hidden;
+	position:relative;
+	display: inline-block;
+	background:url("../images/starsAll.png") no-repeat 0 -22px;
+	span{
+		position:absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width:0;
+		height: 22px;
+		overflow: hidden;
+		background: transparent;
+	}
+	 span:hover ,  span.sactive{
+		background: url("../images/starsAll.png") no-repeat 0 0;
+	}
+	 .star1{
+		z-index: 5;
+		width:26px;
+	}
+	 .star2{
+		z-index: 4;
+		width:59px;
+	}
+
+	 .star3{
+		z-index: 3;
+		width:92px;
+	}
+
+	 .star4{
+		z-index: 2;
+		width:125px;
+	}
+	 .star5{
+		z-index: 1;
+		width:158px;
+	}
+}
+
+

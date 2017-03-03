@@ -1,1 +1,1 @@
-!function(s){s.fn.starComment=function(n){s(".pStars>span").click(function(){s(this).addClass("sactive").siblings().removeClass("sactive")})}}(jQuery);
+!function(s){s.fn.starComment=function(i){s(".pStars>span").click(function(){s(this).addClass("sactive").siblings().removeClass("sactive")}),s(".pStars2>span").click(function(){s(this).addClass("sactive").siblings().removeClass("sactive")})}}(jQuery);

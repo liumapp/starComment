@@ -41,3 +41,46 @@
   z-index: 1;
   width: 158px;
 }
+.pStars2 {
+  top: 5px;
+  width: 158px;
+  height: 22px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  background: url("../images/starsAll.png") no-repeat 0 -22px;
+}
+.pStars2 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0;
+  height: 22px;
+  overflow: hidden;
+  background: transparent;
+}
+.pStars2 span:hover,
+.pStars2 span.sactive {
+  background: url("../images/starsAll.png") no-repeat 0 0;
+}
+.pStars2 .star1 {
+  z-index: 5;
+  width: 26px;
+}
+.pStars2 .star2 {
+  z-index: 4;
+  width: 59px;
+}
+.pStars2 .star3 {
+  z-index: 3;
+  width: 92px;
+}
+.pStars2 .star4 {
+  z-index: 2;
+  width: 125px;
+}
+.pStars2 .star5 {
+  z-index: 1;
+  width: 158px;
+}
